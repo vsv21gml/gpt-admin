@@ -1,0 +1,40 @@
+ # Node / Turbo monorepo                                     래 내용을 D:\Dev\gpt-admin\.gitignore로 생성해 주세요:
+  node_modules/
+  apps/*/node_modules/
+  .turbo/
+  dist/
+  build/
+  *.log
+  npm-debug.log*
+  yarn-debug.log*
+  pnpm-debug.log*
+  lerna-debug.log*
+
+  # Env / secrets
+  .env
+  *.env.local
+  *.env.development
+  *.env.production
+  apps/*/.env
+  apps/*/.env.local
+
+  # Next.js (web)
+  apps/web/.next/
+  apps/web/out/
+  apps/web/.vercel/
+
+  # TypeScript
+  *.tsbuildinfo
+
+  # Coverage / tests
+  coverage/
+  apps/*/coverage/
+  apps/api/test-results/
+
+  # Editor / OS
+  .DS_Store
+  Thumbs.db
+  .idea/
+  .vscode/
+  *.swp
+  *.swo
